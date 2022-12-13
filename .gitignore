@@ -1,0 +1,17 @@
+service1/node_modules/
+service2/node_modules/
+build/
+dist/
+tmp/
+temp/
+
+database/*
+!database/.gitkeep 
+
+log/*
+!log/.gitkeep 
+*.log
+
+# keep config folder with env files ONLY for demo purposes
+# config/
+# .env
